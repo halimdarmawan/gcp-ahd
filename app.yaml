@@ -1,5 +1,6 @@
 runtime: python27
 api_version: 1
+threadsafe: true
 
 handlers:
 - url: /
@@ -14,6 +15,3 @@ handlers:
 - url: /(.*\.(gif|png|jpg))$
   static_files: static/\1
   upload: static/.*\.(gif|png|jpg)$
-
-- url: /.*
-  script: not_found.php
