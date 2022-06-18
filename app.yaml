@@ -1,4 +1,4 @@
-runtime: php55
+runtime: python27
 api_version: 1
 
 handlers:
@@ -8,11 +8,8 @@ handlers:
 - url: /index\.html
   script: index.html
 
-- url: /assets
-  static_dir: assets
-
-- url: /forms
-  static_dir: forms
+- url: /asset
+  static_dir: asset
 
 - url: /(.*\.(gif|png|jpg))$
   static_files: static/\1
