@@ -22,7 +22,7 @@ li{
     border: 1px solid #eeeeee'
 }
 .img{
-    background-image: url();
+    background-image: url("https://storage.googleapis.com/ahdprojek1/halim.jpeg");
     background-color: #eaeaea;
     background-size: cover;
     border-radius: 100px;
